@@ -1,0 +1,3 @@
+#!/bin/zsh
+
+docker run -v ~/projects-python/elabor8-test/output:/elabor8/output elabor8

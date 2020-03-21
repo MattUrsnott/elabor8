@@ -1,0 +1,39 @@
+user, totalVotes
+Alex Wohlbruck, 228
+Kasimir Schulz, 63
+Hampton McGrath, 3
+Jackson Sippe, 2
+Alex Simon, 2
+Veronika Koval, 1
+Tests HiQ, 1
+Shay Zhang, 1
+Leonard Wohlfarth, 1
+Kenny Corsig, 1
+Hedvig Annersten, 1
+Hedvig Annersten, 1
+Erick Vazquez, 1
+David Gippner, 1
+Daniel Carvalho, 1
+Chloe Simmons, 1
+Beth Rothwell, 1
+Alex Wohlbruck, 1
+橿 孟, 0
+Анна Абрамова, 0
+oyaji 55, 0
+luisnoe jasso, 0
+dm max, 0
+bah godam99, 0
+Umesh Golla, 0
+RYAN STULTZ, 0
+Peter Seboyeng, 0
+Nathaniel J McDermott, 0
+Max Bilohatnyuk, 0
+L'hibou Ambigu, 0
+Ivo Baptista, 0
+Ivan Mercedes, 0
+Eduardo P. Gomez, 0
+Durgarao R, 0
+Dicka Ismaji, 0
+Crystal Gale Scott, 0
+Cristian Salcedo, 0
+Andrew Steele, 0

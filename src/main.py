@@ -11,7 +11,7 @@ def get_json():
     # assume internet connectivity ok for the moment
     resp = req.get(cat_url, headers)
     if resp.status_code != 200:
-        print("Error: HTTP response code = {0}".format(resp.status_code))
+        print("Error: HTTP response code = {0}".format(resp.status_code), file=sys.stderr)
         sys.exit(255)
     return json.loads(resp.content)
 

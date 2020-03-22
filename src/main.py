@@ -8,11 +8,11 @@ headers = {'Content-Type': 'application/json', 'Accept': 'application/json'}
 
 
 def get_json():
-    # assume no errors for the moment
+    # assume internet connectivity ok for the moment
     resp = req.get(cat_url, headers)
     if resp.status_code != 200:
         print("Error: HTTP response code = {0}".format(resp.status_code))
-        return None
+        sys.exit(255)
     return json.loads(resp.content)
 
 
@@ -42,7 +42,7 @@ def write_file(path, reporters):
         f = open(path, "w")
     except FileNotFoundError:
         print('Bad path spec: {0}'.format(path), file=sys.stderr)
-        exit(255)
+        sys.exit(255)
     f.write("user, totalVotes\n")
     for reporter in reporters:
         f.write("{0}, {1}\n".format(reporter[1], reporter[0]))
